@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: lightblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
